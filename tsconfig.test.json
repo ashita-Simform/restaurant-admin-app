@@ -1,0 +1,22 @@
+{
+    "extends": "./tsconfig.json", 
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "ESNext",
+      "jsx": "react-jsx",
+      "moduleResolution": "bundler",
+      "types": ["vitest/globals", "node", "jest"],
+      "esModuleInterop": true,
+      "skipLibCheck": true,       
+      "baseUrl": ".",
+      "paths": {
+        "@/*" : ["./src/*"]
+      }, 
+      "noEmit": true,
+      "allowJs": true,             
+      "strict": true,          
+    },
+    "include": ["src/**/*", "test/**/*"], 
+    "exclude": ["node_modules", "dist"]
+  }
+  

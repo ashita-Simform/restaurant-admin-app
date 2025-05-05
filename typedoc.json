@@ -1,0 +1,9 @@
+{
+    "entryPoints": ["src/main.tsx"],
+    "out":"docs",
+    "includeVersion": true,
+    "entryPointStrategy": "expand",
+    "tsconfig": "tsconfig.json",
+    "exclude": ["**/*.spec.ts"],
+    "hideGenerator": true
+}
