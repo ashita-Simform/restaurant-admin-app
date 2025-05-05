@@ -1,0 +1,170 @@
+.pageWrapper {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: #121212;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #f5f5f5;
+}
+
+.cardBlue {
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+.cardGreen {
+  background-color: #52c41a;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+.cardRed {
+  background-color: #f5222d;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+.cardPurple {
+  background-color: #722ed1;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+.cardTransparent {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+.cardOrange {
+  background-color: #fa8c16;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+.cardTeal {
+  background-color: #13c2c2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+.divider {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 24px 0;
+}
+
+.section {
+  margin-bottom: 32px;
+  padding: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.rowWithMargin {
+  margin-top: 16px;
+}
+
+.card {
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.cardWithBorder {
+  border: 1px solid #d9d9d9 !important;
+}
+
+.chartTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.ant-card {
+  background-color: #1f1f1f !important;
+}
+
+.ant-statistic-title {
+  color: #d9d9d9 !important;
+}
+
+.carousel {
+  margin-top: 16px;
+}
+
+.carouselItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+@media (max-width: 1368px) {
+  .pageWrapper {
+    padding: 1rem;
+  }
+
+  .section {
+    padding: 8px;
+  }
+
+  .rowWithMargin {
+    flex-direction: column; 
+  }
+
+  .card {
+    margin-bottom: 16px; 
+  }
+
+  .carousel {
+    margin-top: 16px;
+  }
+
+  .carouselItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+  }
+}
+
+.section {
+  margin-bottom: 32px;
+  padding: 16px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.cardTransparent {
+  background-color: transparent;
+  border: none;
+  border-radius: 12px;
+}
+
+.chartTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1368px) {
+  .section {
+    padding: 8px;
+  }
+
+  .cardTransparent {
+    margin-bottom: 16px;
+  }
+}
