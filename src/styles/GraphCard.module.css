@@ -1,0 +1,93 @@
+.graphCard {
+    background-color: #3d3939;
+    border: 1px solid #333131;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px 0;
+    transition: box-shadow 0.3s ease;
+}
+
+.graphCard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.graphCard h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #d1c8c8;
+}
+.graphCard p {
+    font-size: 14px;
+    color: #d1cbcb;
+}
+.graphCard .ant-card-body {
+    padding: 16px;
+}
+.graphCard .ant-card-head {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 16px;
+}
+.graphCard .ant-card-head-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+.graphCard .ant-card-head-title:hover {
+    color: #ff7f50;
+}
+.graphCard .ant-card-extra {
+    font-size: 14px;
+    color: #666666;
+}
+.graphCard .ant-card-extra:hover {
+    color: #ff7f50;
+}
+.graphCard .ant-card-actions {
+    border-top: 1px solid #e0e0e0;
+}
+.graphCard .ant-card-actions li {
+    font-size: 14px;
+    color: #666666;
+}
+.graphCard .ant-card-actions li:hover {
+    color: #ff7f50;
+}
+.graphCard .ant-card-actions li a {
+    color: inherit;
+    text-decoration: none;
+}
+.graphCard .ant-card-actions li a:hover {
+    text-decoration: underline;
+}
+.graphCard .ant-card-actions li a:active {
+    color: #ff7f50;
+}
+.graphCard .ant-card-actions li a:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ff7f50;
+}
+.graphCard .ant-card-actions li a:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px #ff7f50;
+}
+.graphCard .ant-card-actions li a:focus-visible:hover {
+    box-shadow: 0 0 0 2px #ff7f50;
+}
+.graphCard .ant-card-actions li a:focus-visible:active {
+    box-shadow: 0 0 0 2px #ff7f50;
+}
+.graphCard .ant-card-actions li a:focus-visible:focus {
+    box-shadow: 0 0 0 2px #ff7f50;
+}
+.graphCard .ant-card-actions li a:focus-visible:focus-visible {
+    box-shadow: 0 0 0 2px #ff7f50;
+}
+.graphCard .ant-card-actions li a:focus-visible:focus-visible:hover {
+    box-shadow: 0 0 0 2px #ff7f50;
+}
+.graphCard .ant-card-actions li a:focus-visible:focus-visible:active {
+    box-shadow: 0 0 0 2px #ff7f50;
+}

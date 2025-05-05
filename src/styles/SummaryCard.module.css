@@ -1,0 +1,31 @@
+.summaryCard {
+    background-color: #474242;
+    border: 1px solid #242121;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.summaryCard:hover {
+    transform: translateY(-4px);
+}
+
+.summaryCard h4 {
+    font-size: 1rem;
+    color: #ebe3e3;
+    margin-bottom: 8px;
+}
+
+.summaryCard h2 {
+    font-size: 2rem;
+    color: #e7e0e0;
+    margin: 0;
+}
+
+.summaryCard p {
+    font-size: 0.875rem;
+    color: #f3e6e6;
+    margin-top: 8px;
+}

@@ -1,0 +1,21 @@
+.image-upload-atom {
+    margin-top: 1rem;
+  }
+  
+  .upload-dark-theme .ant-upload.ant-upload-select {
+    background-color: #1b2a41;
+    border: 1px dashed #4c5c78;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    color: #a0b0d0;
+  }
+  
+  .upload-dark-theme .ant-upload.ant-upload-select:hover {
+    border-color: #5c6ac4;
+    background-color: #223355;
+  }
+  
+  .upload-dark-theme .ant-upload-list-item {
+    background-color: #1b2a41;
+    border-color: #4c5c78;
+  }

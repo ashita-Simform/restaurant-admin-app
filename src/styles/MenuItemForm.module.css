@@ -1,0 +1,70 @@
+* {
+    color: #474747;
+}
+
+.formCard {
+    background: #1f1f1f;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    padding: 24px;
+    transition: all 0.3s;
+}
+
+.divider {
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.inputItem,
+.textAreaItem,
+.selectItem,    
+.numberItem,
+.switchItem {
+    border-radius: 8px;
+    background-color: #333333;
+    width: 100%;
+    border: 1px solid #444444;
+}
+
+.inputItem:focus-within,
+.textAreaItem:focus-within,
+.selectItem:focus-within,
+.numberItem:focus-within {
+    border-color: #1890ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.uploadArea {
+    border: 1px dashed #555555;
+    background-color: #333333;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.uploadArea:hover {
+    border-color: #1890ff;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+button {
+    background-color: #1890ff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #40a9ff;
+}
+
+button:disabled {
+    background-color: #666666;
+}
