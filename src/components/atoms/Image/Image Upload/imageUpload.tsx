@@ -31,7 +31,7 @@ interface ImageUploadAtomProps {
  */
 const ImageUploadAtom: React.FC<ImageUploadAtomProps> = ({
   onUpload,
-}: ImageUploadAtomProps): JSX.Element => {
+}: ImageUploadAtomProps): React.JSX.Element => {
   const [fileList, setFileList] = useState<UploadFile[]>([]);
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [modalContent, setModalContent] = useState<string>('');
